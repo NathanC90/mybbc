@@ -1,0 +1,1720 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Technology - BBC News </title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
+        <style>
+        	body {
+	        margin: 0;
+	        padding: 0;	        
+	    	font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+	    }
+
+	    #topbar {
+	    	width: 100%;
+	    	height: 40px;
+	    }
+
+	    #logo {
+			width: 85px;
+			margin: 10px 15px 10px 45px;
+			float: left;
+	    }
+
+	    .topbar-section {
+	    	float: left;
+	    	border-left: 1px #E4E4E4 solid;
+	    	height: 40px;
+	    	padding: 0px 20px;
+	    }
+
+	    #signin-image {
+	    	width: 35px;
+	    	margin: 5px 0px 5px -10px;
+	    }
+
+	    #signin-text {
+	    	font-weight: bold;
+	    	font-size: 85%;
+	    	position:relative;
+	    	top: -15px;
+	    	left: -4px;
+	    	padding-right: 60px;
+	    }
+
+	    #signin:hover {
+	    	border-bottom: 3px solid #18b;
+	    	cursor: pointer;
+	    }
+
+	    .topbar-menu {
+	    	font-weight: bold;
+	    	font-size: 85%;
+	    	padding: 15px 15px 0px 15px;
+	    	height: 25px;
+	    }
+
+	    #topbar-home:hover {
+	    	border-bottom: 3px solid #007bc7;
+	    	cursor: pointer;
+	    }
+
+	    #topbar-news:hover {
+	    	border-bottom: 3px solid #5DBCD2;
+	    	cursor: pointer;
+	    }
+
+	    #topbar-sport:hover {
+	    	border-bottom: 3px solid #547103;
+	    	cursor: pointer;
+	    }
+
+	    #topbar-weather:hover {
+	    	border-bottom: 3px solid #2cae6f;
+	    	cursor: pointer;
+	    }
+
+	    #topbar-shop:hover {
+	    	border-bottom: 3px solid #dac8af;
+	    	cursor: pointer;
+	    }
+
+	    #topbar-reel:hover {
+	    	border-bottom: 3px solid #ab5d1b;
+	    	cursor: pointer;
+	    }
+
+	    #topbar-travel:hover {
+	    	border-bottom: 3px solid #d9aa0c;
+	    	cursor: pointer;
+	    }
+
+	    #topbar-capital:hover {
+	    	border-bottom: 3px solid #7c3853;
+	    	cursor: pointer;
+	    }
+
+	    #topbar-more:hover {
+	    	border-bottom: 3px solid #827712;
+	    	cursor: pointer;
+	    }
+
+	    #more-arrow {
+	    	width: 10px;
+	    	padding-left: 60px;
+	    }
+
+	    #searchbar {
+	    	border: none;
+	    	background-color: #E4E4E4;
+	    	padding:4px;
+	    	font-weight: bold;
+	    	font-size:13px;
+	    	margin-left: 25px;
+	    	float:left;
+	    	margin-top:10px;
+	    }
+
+	    #magnifying-glass {
+	    	margin-top:10px;
+	    	width: 24px;
+	    }
+
+	    #menu-bar {
+	    	width: 100%;
+	    	background-color: #bb1919;
+	    	height: 70px;
+	    	float: left;
+	    }
+
+	    h1 {
+	    	padding: 0px;
+	    	margin: 0px;
+	    	color:white;
+	    	font-weight: normal;
+	    	font-size: 43px;
+	    	margin-top: 10px;
+	    	padding-left: 45px;
+	    }
+	    .menu-bar-section {
+	    	background-color: #bb1919;
+	    	width: 100%;
+	    	height: 25px;
+	    	float: left;
+	    }
+
+	    .menu-bar {
+		 	list-style-type: none;
+		 	color: white;
+		 	border-right: 1px solid #FFFFFF;
+		 	padding: 0px 13px;
+		 	font-size: 80%;
+		 	font-weight: normal;
+		 	float:left;
+		 	height: 20px;
+		 }
+
+		 #menu-home {
+		 	padding: 0px 15px 0px 50px;
+		 }
+
+		 #menu-video:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    }
+	    #menu-world:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-asia:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-uk:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-business:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-tech:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-video:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-science:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-stories:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-entertainment:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-health:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-world-news:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-in-pictures:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-reality-check:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-newsbeat:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+	    #menu-more:hover {
+	    	border-bottom: 3px solid #FFFFFF;
+	    	cursor: pointer;
+	    }
+
+	    #menu-more{
+	    	border: none;
+	    }
+	    #more-arrow-white {
+	    	width: 8px;
+	    }
+
+	    .clear{
+	    	width:100%;
+	    	height:20px;
+	    	background-color: white;
+	    	float:left;
+	    }
+
+	    #heading {
+	    	color: rgb(64, 64, 64);
+	    	font-size: 135%;
+	    	margin: 9px 45px;
+	    	float:left;
+	    	border-bottom: 3px solid rgb(187, 25, 25);;
+	    }
+
+	    #main-article-large {
+	    	float:left;
+	    	width: 420px;
+	    }
+
+	    #main-article-image-large {	    	
+	    	margin: 0px 45px;
+	    	width: 480px;
+	    	float: left;
+	    	position: relative;
+	    }
+
+	    #main-article-image-large:hover {
+	    	cursor: pointer;
+	    }
+
+	    #main-article-title-large {
+	    	color: black;
+	    	font-weight: bold;
+	    	font-size: 180%;
+	    	width: 420px;
+	    	float:left;
+	    	position: relative;
+	    }
+	    #main-article-title-large:hover {
+	    	color: #309acc;
+	    	text-decoration: underline;
+	    	cursor: pointer;
+	    }
+
+	    #main-article-preview-large {
+	    	margin: 10px 45px;
+	    	width: 480px;
+	    	float: left;
+	    	font-size:95%;
+	    	color: gray;
+	    }
+
+	    #clock-icon-large {
+	    	width: 15px;
+	    	margin: 10px 0px 0px 45px;
+	    	float:left;
+	    }
+
+	    #post-time-large {
+	    	float: left;
+	    	margin: 10px 5px;
+	    	color: gray;
+	    	font-size: 90%;
+	    }
+
+	    #category-large {
+	    	border-left: 1px solid #E4E4E4;
+	    	height: 18px;
+	    	float: left;	    	
+	    	margin: 11px;
+	    	padding-left: 10px;
+	    	color: black;
+	    	font-size: 90%;
+	    }
+
+	    #category-large:hover {	    	
+	    	color: #309acc;
+	    	cursor: pointer;
+	    	text-decoration: underline;
+	    }
+
+	    #main-bullets {
+	    	float: left;
+	    	font-weight: bold;
+	    	margin: 60px 25px;
+	    }
+
+	    #main-bullets li:hover {	    	
+	    	color: #309acc;
+	    	cursor: pointer;
+	    	text-decoration: underline;
+	    }
+
+	    #main-article-small {
+	    	float: left;
+	    	width: 270px;
+	    	height: 290px;
+	    }
+
+	    #main-article-image-small {
+	    	float: left;
+	    	width: 260px;
+	    	margin: 0px 125px;
+	    }
+
+	    #main-article-image-small:hover {
+	    	cursor: pointer;
+	    }
+
+
+	    #main-article-title-small {
+	    	float: left;
+	    	color: black;
+	    	font-size: 105%;
+	    	font-weight: bold;
+	    	margin: 5px 5px 0px 80px;	    	
+	    	width: 260px;
+	    	height: 30px;
+	    }
+
+	    #main-article-title-small:hover {
+	    	color: #309acc;
+	    	cursor: pointer;
+	    	text-decoration: underline;
+	    }
+
+	    #main-article-preview-small {
+	    	margin: 10px 125px;
+	    	width: 260px;
+	    	float: left;
+	    	font-size:95%;
+	    	color: gray;
+	    	padding: 1px 0px 0px 0px;
+	    }
+
+	    #clock-icon-small {
+	    	width: 15px;
+	    	margin: 10px 0px 0px 125px;
+	    	float:left;
+	    }
+
+	    #post-time-small {
+	    	float: left;
+	    	margin: 10px 0px;
+	    	color: gray;
+	    	font-size: 90%;
+	    	padding-right: 5px;
+	    }
+
+	    #category-small {
+	    	border-left: 1px solid #E4E4E4;
+	    	height: 18px;
+	    	float: left;	    	
+	    	margin: 11px 0px;
+	    	padding-left: 8px;
+	    	color: black;
+	    	font-size: 90%;
+	    }
+
+	    #category-small:hover {
+	    	color: #309acc;
+	    	cursor: pointer;
+	    	text-decoration: underline;
+	    }
+
+
+
+	    #sub-article {
+	    	float: left;
+	    	width: 260px;
+	    	padding-left:2px;
+	    }
+
+	    #sub-images {
+	    	margin-left: 45px;
+	    	float: left;
+	    	width: 245px;
+	    }
+
+	    #sub-images:hover {
+	    	cursor: pointer;
+	    }
+
+	    #sub-title {
+	    	float: left;
+	    	color: black;
+	    	font-size: 105%;
+	    	font-weight: bold;
+	    	margin: 5px 0px 20px 0px;	    	
+	    	width: 250px;
+	    	padding-bottom: 5px;
+	    	height: 30px;
+	    }
+
+	    #sub-title:hover {
+	    	color: #309acc;
+	    	cursor: pointer;
+	    	text-decoration: underline;
+
+	    }
+
+	    #sub-clock-icon {
+	    	width: 15px;
+	    	margin: 10px 0px 0px 45px;
+	    	float:left;
+	    }
+
+	    #sub-post-time {
+	    	float: left;
+	    	margin: 10px 0px;
+	    	color: gray;
+	    	font-size: 90%;
+	    	padding-right: 5px;
+	    }
+
+	    #sub-category {
+	    	border-left: 1px solid #E4E4E4;
+	    	height: 18px;
+	    	float: left;	    	
+	    	margin: 11px 0px;
+	    	padding-left: 8px;
+	    	color: black;
+	    	font-size: 90%;
+	    }
+
+	    #sub-category:hover {
+	    	color: #309acc;
+	    	cursor: pointer;
+	    	text-decoration: underline;
+
+	    }
+
+	    #section-bar-wl {
+	    	float: left;
+	    }
+
+	    #section-title-wl {
+	    	color: black;
+	    	font-weight: bold;
+	    	font-size: 160%;
+	    	width: 170px;
+	    	float:left;
+	    	padding-bottom: 30px;
+	    }
+
+	    #section-bar-wl hr {
+	    	width: 1090px;
+	    	float:right;
+	    	padding-top: 18px;
+	    	border-top: none;
+	    	border-left:none;
+	    	border-right: none;
+	    	border-bottom: 1px solid black;
+	    }
+
+	    #section-bar-fa {
+	    	float: left;
+	    }
+
+	    #section-title-fa {
+	    	color: black;
+	    	font-weight: bold;
+	    	font-size: 160%;
+	    	width: 260px;
+	    	float:left;
+	    	padding-bottom: 30px;
+	    }
+
+	    #section-bar-fa hr {
+	    	width: 990px;
+	    	float:right;
+	    	padding-top: 18px;
+	    	border-top: none;
+	    	border-left:none;
+	    	border-right: none;
+	    	border-bottom: 1px solid black;
+	    }
+
+	    #section-bar-bbc {
+	    	float: left;
+	    }
+
+	    #section-title-bbc {
+	    	color: black;
+	    	font-weight: bold;
+	    	font-size: 160%;
+	    	width: 200px;
+	    	float:left;
+	    	padding-bottom: 30px;
+	    }
+
+	    #section-bar-bbc hr {
+	    	width: 1080px;
+	    	float:right;
+	    	padding-top: 18px;
+	    	border-top: none;
+	    	border-left:none;
+	    	border-right: none;
+	    	border-bottom: 1px solid black;
+	    }
+
+	    #section-bar-find-us {
+	    	float: left;
+	    }
+
+	    #section-title-find-us {
+	    	color: black;
+	    	font-weight: bold;
+	    	font-size: 160%;
+	    	width: 170px;
+	    	float:left;
+	    	padding-bottom: 30px;
+	    }
+
+	    #section-bar-find-us hr {
+	    	width: 1090px;
+	    	float:right;
+	    	padding-top: 18px;
+	    	border-top: none;
+	    	border-left:none;
+	    	border-right: none;
+	    	border-bottom: 1px solid black;
+	    }
+
+	    #latest-updates-bar {
+	    	width: 1250px;
+	    	float:left;
+	    	margin: 0px 45px;
+	    	border-top: none;
+	    	border-left:none;
+	    	border-right: none;
+	    	border-bottom: 1px solid black;
+	    }
+
+	    #latest-updates{
+	    	width: 800px;
+	    	float: left;
+	    	margin: 0px 280px;
+	    }
+
+	    #latest-updates-head {
+	    	color: black;
+	    	width: 750px;
+	    	height: 30px;
+	    	font-weight: bold;
+	    	font-size: 180%;
+	    	margin: 0px;
+	    	padding:10px 20px;
+	    }
+
+	    #latest-updates-time {
+	    	padding: 0px 20px;
+	    	font-size: 90%;
+	    	width: 750px;
+	    }
+
+	    #latest-updates-title {
+	    	padding: 0px 20px;
+	    	font-size: 110%;
+	    	font-weight: bold;
+	    	width: 750px;
+	    }
+
+	    #latest-updates-title:hover {
+	    	color: #309acc;
+	    	cursor: pointer;
+	    }
+
+	    #source-icon {
+	    	width: 40px;
+	    	float: left;
+	    	margin: 8px 10px;
+	    }
+
+	    #source-text {
+	    	font-size: 14px;
+	    	float:left;
+	    	margin: 15px 5px 0px 5px;
+	    	width: 700px;
+	    }
+
+	    #source-info {
+	    	font-size: 14px;
+	    	float:left;
+	    	margin: 0px 5px 0px 5px;
+	    }
+
+	    #latest-images-large {
+	    	float: left;
+	    	width: 780px;
+	    	margin: 15px;
+	    }
+
+	    #latest-images-large:hover {
+			cursor: pointer;
+	    }
+
+	    #latest-updates-content {
+	    	float: left;
+	    	width: 780px;	    	
+	    	margin: 15px;
+
+	    }
+
+	    #latest-line {
+	    	float: left;
+	    	width: 800px;
+	    	border: 1px solid #e5e5e5;
+	    }
+
+	    #latest-updates-news {
+	    	float: left;
+	    	margin:5px;
+	    }
+
+	    #hyperlinks {
+	    	color: black;
+	    	text-decoration: none;
+	    	font-weight: bold;
+	    	border-bottom: 1px solid #e5e5e5;
+	    }
+
+	    #hyperlinks:hover {
+	    	color: #309acc;
+	    	border-bottom: 1px solid #309acc;
+	    }
+
+	    #latest-images-small {
+	    	float: left;
+	    	width: 280px;
+	    	margin: 15px;
+	    }
+
+	    #latest-images-small:hover {
+			cursor: pointer;
+	    }
+
+	    #latest-small-text {
+	    	float:left;
+	    	width: 480px;
+	    	height:15px;
+	    	margin: 18px 0px 0px 5px;
+	    	font-size:85%;
+	    }
+
+	    #latest-small-info {
+	    	float:left;
+	    	width: 480px;	    	
+	    	height:15px;
+	    	margin: 0px 0px 10px 5px;
+	    	font-size:85%;
+	    }
+
+	    #latest-small-content {
+	    	width: 750px;
+	    	margin: 20px 0px 0px 10px;
+	    	font-size: 110%;
+	    }
+
+	    #read-more {
+	    	background-color: white;
+	    	color: black;
+	    	font-weight: bold;
+	    	border: 1px solid #E5E5E5;
+	    	padding: 10px 12px;
+	    	margin: 15px 0px 15px 5px;
+	    }
+
+	    #read-more:hover {
+	    	color: #309acc;
+	    	cursor: pointer;
+	    }
+
+	    #show-more {
+	    	float: left;
+	    	width: 600px;
+	    	height: 40px;
+	    	margin: 0px 100px 20px 100px;
+	    	background-color: rgb(220, 220, 220);
+	    	border-top: none;
+	    	border-right: none;
+	    	border-left: none;
+	    	border-bottom: 2px solid black;
+	    	color: black;
+	    	font-family: arial;
+	    	font-weight: bold;
+	    	font-size: 100%;
+	    }
+
+	    #show-more:hover {
+	    	background-color: rgb(169, 169, 169);;
+	    	cursor: pointer;
+	    }
+
+	    #about-the-bbc {
+	    	float: left;
+	    	width: 1280px;
+	    	height: 500px;
+	    	margin: 0px 45px;
+	    	float:left;
+	    }
+
+	    #about-the-bbc-large {
+	    	float: left;
+	    	width: 480px;
+	    	height: 500px;
+	    	margin: 0px 15px 0px 0px;
+	    	float:left;
+	    }
+
+	    #about-images-large {
+	    	width: 472px;
+	    	float:left;
+	    }
+
+	    #about-the-bbc-title {
+	    	color: black;
+	    	font-size: 150%;
+	    	font-weight: bold;
+	    	margin: 10px 0px;
+	    	padding: 0px;
+	    	float:left;
+	    }
+
+	    #about-the-bbc-title:hover {	    	
+	    	color: #309acc;
+	    	cursor: pointer;
+	    }
+
+	    #about-the-bbc-source {
+	    	margin: 20px 10px 10px 0px;
+	    	font-size: 90%;
+	    	float:left;
+	    }
+
+	    #about-the-bbc-small {
+	    	width: 246px;
+	    	float:left;
+	    	margin: 0px 10px 0px 0px;
+	    }
+
+	    #about-images-small {
+	    	float:left;
+	    	width: 236px;
+	    }
+
+	    #about-the-bbc-title-small {
+	    	color: black;
+	    	font-size: 110%;
+	    	font-weight: bold;
+	    	margin: 10px 0px;
+	    	padding: 0px;
+	    	float:left;
+	    }
+
+	    #about-the-bbc-title-small:hover {	    	
+	    	color: #309acc;
+	    	cursor: pointer;
+	    }
+
+	    #about-the-bbc-source-small {
+	    	margin: 20px 10px 10px 0px;
+	    	font-size: 90%;
+	    	float:left;
+	    }
+
+	    #find-us-here {
+	    	width: 1250px;
+	    	height: 100px;
+	    	float: left;
+	    	margin: 0px 50px;
+	    }
+
+	    #social-media-icon {
+	    	border-right: 1px solid #E4E4E4;
+	    	width: 450px;
+	    	height: 100px;
+	    	float:left;
+	    }
+
+	    #icon-twitter {
+	    	content: url('images/twitter-white.png');
+	    	width: 90px;
+	    }
+
+	    #icon-facebook {
+	    	content: url('images/facebook-white.png');
+	    	width: 90px;
+	    }
+
+	    #icon-instagram {
+	    	content: url('images/instagram-white.png');
+	    	width: 90px;
+	    }
+
+	    #icon-twitter:hover {
+	    	content:url('images/twitter-blue.png');
+	    	width: 90px;
+	    	cursor: pointer;
+	    }
+
+	    #icon-facebook:hover {
+	    	content:url('images/facebook-blue.png');
+	    	width: 90px;
+	    	cursor: pointer;
+	    }
+
+	    #icon-instagram:hover {
+	    	content:url('images/instagram-pink.png');
+	    	width: 90px;
+	    	cursor: pointer;
+	    }
+
+	    #news-daily {
+	    	float: left;
+	    	width: 260px;
+	    }
+
+	    #news-daily-icon {
+	    	width: 50px;
+	    	float: left;	    	
+	    	border-right: 1px solid rgb(34, 34, 34);
+	    }
+
+	    #news-daily-title {
+	    	font-size: 180%;
+	    	font-weight: bold;
+	    	padding: 11px 8px;
+	    	float: left;
+	    }
+
+	    #news-daily-title span {
+	    	font-weight: normal;
+	    }
+
+	    #news-daily-content {
+	    	width: 240px;
+	    	float:left;
+
+	    }
+
+	    #news-app {
+	    	float: left;
+	    	width: 240px;
+	    }
+
+	    #news-app-icon {
+	    	width: 60px;
+	    	float: left;
+	    	border-right: 1px solid rgb(34, 34, 34);
+	    }
+
+	    #news-app-title {
+	    	font-size: 180%;
+	    	font-weight: bold;
+	    	padding: 8px 10px;
+	    	float: left;
+	    	padding-bottom: 15px;
+	    }
+
+	    #news-app-title span {
+	    	font-weight: normal;
+	    }
+
+	    #news-app-content {
+	    	width: 230px;
+	    	float:left;
+
+	    }
+
+	    #contact {
+	    	width: 240px;
+	    	font-size: 80%;
+	    	float: left;
+	    	margin:0px;
+	    	padding:0px;
+	    }
+
+	    #contact a:hover{
+	    	color: #309acc;
+	    	cursor: pointer;
+	    }
+
+	    #somecontainer {
+	    	width: 750px;
+	    	height: 100%;
+	    	float: left;
+	    	padding-left: 30px;
+	    }
+
+	    #upper-footer {
+	    	width: 100%;
+	    	height: 150px;
+	    	background-color: #2F2F2F;
+	    	float:left;
+	    	border-bottom: 1px solid #959595;
+	    }
+
+	    #lower-footer {
+	    	width: 100%;
+	    	height: 330px;
+	    	background-color: #4C4C4C;
+	    	float:left;
+	    }
+
+	    #news-services {
+	    	color: white;
+	    	font-size: 160%;
+	    	margin: 30px 50px;
+	    }
+
+	    .news-services {
+	    	color: white;
+	    	padding: 0px 0px 0px 50px;
+	    }
+
+	    #news-services-mobile {
+	    	float:left;
+	    	width:20px;
+	    	margin-left: 50px;
+	    	margin-right: 15px;
+	    }
+
+	    #news-services-mobile:hover {
+	    	cursor: pointer;
+	    }
+
+	    #news-services-tv {
+	    	float:left;
+	    	width:30px;
+	    	margin-left: 50px;
+	    	margin-right: 15px;
+	    }
+
+	    #news-services-tv:hover {
+	    	cursor: pointer;
+	    }
+
+	    #news-services-alerts {
+	    	float:left;
+	    	width:30px;
+	    	margin-left: 50px;
+	    	margin-right: 15px;
+	    }
+
+	    #news-services-alerts:hover {
+	    	cursor: pointer;
+	    }
+
+	    #news-services-contact {
+	    	float:left;
+	    	width:30px;
+	    	margin-left: 50px;
+	    	margin-right: 15px;
+	    }
+
+	    #news-services-contact:hover {
+	    	cursor: pointer;
+	    }
+
+	    #on-mobile {
+	    	float: left;
+	    	margin-top: 9px;
+	    	margin-right:100px;
+	    	padding:0px;
+	    	font-weight: bold;
+	    	font-size:85%;
+	    }
+
+	    #on-mobile:hover {
+	    	border-bottom: 1px solid white;
+	    	cursor: pointer;
+	    }
+
+	    #on-tv {
+	    	float: left;
+	    	margin-top: 9px;
+	    	margin-right: 100px;
+	    	padding:0px;
+	    	font-weight: bold;
+	    	font-size:85%;
+	    }
+
+	    #on-tv:hover {
+	    	border-bottom: 1px solid white;
+	    	cursor: pointer;
+	    }
+
+	    #news-alerts {
+	    	float: left;
+	    	margin-top: 9px;
+	    	margin-right: 100px;
+	    	padding:0px;
+	    	font-weight: bold;
+	    	font-size:85%;
+
+	    }
+
+	    #news-alerts:hover {
+	    	border-bottom: 1px solid white;
+	    	cursor: pointer;
+	    }
+	    
+	    #contact-bbc {
+	    	float: left;
+	    	margin-top: 9px;
+	    	margin-right: 100px;
+	    	padding:0px;
+	    	font-weight: bold;
+	    	font-size:85%;
+
+	    }
+
+	    #contact-bbc:hover {
+	    	border-bottom: 1px solid white;
+	    	cursor: pointer;
+	    }
+
+	    #explore-the-bbc {
+	    	color: white;
+	    	font-weight: bold;
+	    	font-size: 145%;
+	    	margin: 30px 50px;
+	    	width:1200px;
+	    	float:left;
+	    }
+
+	    #footer-links-00 {
+	    	float:left;
+	    	color: white;
+	    	font-weight: bold;
+	    	font-size: 80%;
+	    	width:190px;
+	    	border-right: 1px solid #959595;
+	    	margin-left: 50px;
+	    }
+
+	    #footer-links-00 a:hover {
+	    	border-bottom: 1px solid white;
+	    	cursor: pointer;
+	    }
+
+	    #footer-links-01 {
+	    	float:left;
+	    	color: white;
+	    	font-weight: bold;
+	    	font-size: 80%;
+	    	width:190px;
+	    	border-right: 1px solid #959595;
+	    	margin-left: 20px;
+	    }
+
+	    #footer-links-01 a:hover {
+	    	border-bottom: 1px solid white;
+	    	cursor: pointer;
+	    }
+
+	    #footer-links-02 {
+	    	float:left;
+	    	color: white;
+	    	font-weight: bold;
+	    	font-size: 80%;
+	    	width:190px;
+	    	margin-left: 20px;
+	    }
+
+	    #footer-links-02 a:hover {
+	    	border-bottom: 1px solid white;
+	    	cursor: pointer;
+	    }
+
+	    #footer-breaker {
+	    	float: left;
+	    	width: 1200px;
+	    	border-top: 1px solid #959595;
+	    	margin: 15px 50px;
+	    }
+
+	    #terms-of-use {
+	    	float:left;
+	    	color: white;
+	    	font-size: 80%;
+	    	margin-left: 50px;
+	    }
+
+	    #terms-of-use span{
+	    	margin-right: 20px;
+	    }
+
+	    #terms-of-use span:hover{
+	    	border-bottom: 1px solid white;
+	    	cursor: pointer;
+	    }
+
+	    #copyright-section {
+	    	float: left;
+	    	color: white;
+	    	font-size: 80%;
+	    	margin: 20px 50px;
+	    }
+
+	    #copyright {
+	    	font-weight: bold;
+	    }
+
+	    #read-about {
+	    	font-weight: bold;
+	    }
+
+	    #read-about:hover {
+	    	border-bottom: 1px solid white;
+	    	cursor: pointer;
+	    }
+
+
+
+
+        </style>
+        
+    </head>
+    <body>
+    	<div id="topbar">
+    		<img id="logo" src="images/bbc-logo.png" alt="">
+			
+
+    		<div id="signin" class="topbar-section">
+				<img id="signin-image"src="images/signin.png" alt="">
+				<span id="signin-text">Sign in</span>
+    		</div>
+
+    		<div id="topbar-home" class="topbar-section topbar-menu">
+    			<span>Home</span>
+    		</div>
+    		<div id="topbar-news" class="topbar-section topbar-menu">
+    			<span >News</span>
+    		</div>
+    		<div id="topbar-sport" class="topbar-section topbar-menu">    			
+    			<span>Sport</span>
+    		</div>
+    		<div id="topbar-weather" class="topbar-section topbar-menu">
+    			<span>Weather</span>
+    		</div>
+    		<div id="topbar-shop" class="topbar-section topbar-menu">    			
+    			<span>Shop</span>
+    		</div>
+    		<div id="topbar-reel" class="topbar-section topbar-menu">    			
+    			<span>Reel</span>
+    		</div>
+    		<div id="topbar-travel" class="topbar-section topbar-menu">    			
+    			<span>Travel</span>
+    		</div>
+    		<div id="topbar-capital" class="topbar-section topbar-menu">    			
+    			<span>Capital</span>
+    		</div>
+    		<div id="topbar-more" class="topbar-section topbar-menu">
+    			<span>More</span>
+    			<img id="more-arrow" src="images/more-arrow.png" alt="">
+    		</div>
+    		<div id="topbar-search" class="topbar-section">
+    			<input id="searchbar" type="text" placeholder="Search">
+    			<input type="image" id="magnifying-glass" src="images/magnifying-glass.png" alt="">
+    		</div>
+
+    	</div>
+
+    	<div id="menu-bar">
+    		<h1>NEWS</h1>
+    	</div>
+    	<div class="menu-bar-section">
+    		<div class="">
+    			<div id="menu-home" class="menu-bar">
+    				<a>Home</a>
+    			</div>
+    			<div id="menu-video" class="menu-bar">
+    				<a>Video</a>	
+    			</div>
+    			<div id="menu-world" class="menu-bar">
+    				<a>World</a>	
+    			</div>
+    			<div  id="menu-asia" class="menu-bar">
+    				<a>Asia</a>	
+    			</div>
+    			<div  id="menu-uk" class="menu-bar">
+    				<a>UK</a>	
+    			</div>
+    			<div  id="menu-business" class="menu-bar">
+    				<a>Business</a>	
+    			</div>
+    			<div  id="menu-tech" class="menu-bar">
+    				<a>Tech</a>	
+    			</div>
+    			<div  id="menu-science" class="menu-bar">
+    				<a>Science</a>	
+    			</div>
+    			<div  id="menu-stories" class="menu-bar">
+    				<a>Stories</a>	
+    			</div>
+    			<div  id="menu-entertainment" class="menu-bar">
+    				<a>Entertainment & Arts</a>	
+    			</div>
+    			<div  id="menu-health" class="menu-bar">
+    				<a>Health</a>	
+    			</div>
+    			<div  id="menu-world-news" class="menu-bar">
+    				<a>World News TV</a>	
+    			</div>
+    			<div  id="menu-in-pictures" class="menu-bar">
+    				<a>In Pictures</a>	
+    			</div>
+    			<div  id="menu-reality-check" class="menu-bar">
+    				<a>Reality Check</a>	
+    			</div>
+    			<div  id="menu-newsbeat" class="menu-bar">
+    				<a>Newsbeat</a>	
+    			</div>
+    			<div  id="menu-more" class="menu-bar">
+    				<a>More</a>
+    				<img id="more-arrow-white" src="images/more-arrow-white.png" alt="">
+    			</div>
+    		</div>
+    	</div>
+    	<div id="heading">
+    		Tech	
+    	</div>
+
+    	<div class="clear"></div>
+    	<div id="main-article-large">
+    		<img id="main-article-image-large"src="images/main-article.png" alt="">
+    		<h1 id="main-article-title-large">US Navy wants 350bn media posts</h1>
+    		<span id="main-article-preview-large">It plans to collect and analyse 350 billion social media posts from around the world.</span>
+    		<div class="clear"></div>
+    		<img id="clock-icon-large" src="images/clock.png" alt="">
+    		<div id="post-time-large">14h</div>
+    		<div id="category-large">Technology</div>
+    		<div class="clear"></div>
+    		<ul id="main-bullets">
+    			<li>Facebook culls three billion fake profiles</li>
+    			<li>Instagram influences hit by data breach</li>
+    		</ul>    		
+    	</div>
+    	<div id="main-article-small">
+    		<img id="main-article-image-small" src="images/main-article-image-small-01.png" alt="">
+    		<h1 id="main-article-title-small">Amazon easily defeated facial ID revolt</h1>
+    		<span id="main-article-preview-small">Ballot to ban sales of Rekognition system to police attracted less than 3% of investor's votes.</span>
+    		<img id="clock-icon-small" src="images/clock.png" alt="">
+    		<div id="post-time-small">14h</div>
+    		<div id="category-small">Technology</div>
+    	</div>
+    	<div id="main-article-small">
+    		<img id="main-article-image-small" src="images/main-article-image-small-02.png" alt="">
+    		<h1 id="main-article-title-small">The tablet computer pulled by donkey</h1>
+    		<span id="main-article-preview-small">communities in Mozambiquelearned about health, banking and elections via giant interactive screen.</span>
+    		<img id="clock-icon-small" src="images/clock.png" alt="">
+    		<div id="post-time-small">14h</div>
+    		<div id="category-small">Technology</div>
+    	</div>
+    	<div id="main-article-small">
+    		<img id="main-article-image-small" src="images/main-article-image-small-03.png" alt="">
+    		<h1 id="main-article-title-small">Iggy Azalea 'violated' by nude photo leak</h1>
+    		<span id="main-article-preview-small">The rapper deletes her social media accounts after receiving "vile" messages about leaked photos.</span>
+    		<img id="clock-icon-small" src="images/clock.png" alt="">
+    		<div id="post-time-small">14h</div>
+    		<div id="category-small">Technology</div>
+    	</div>
+    	<div id="main-article-small">
+    		<img id="main-article-image-small" src="images/main-article-image-small-04.png" alt="">
+    		<h1 id="main-article-title-small">MacKenzie Bezos to give away half of fortune</h1>
+    		<span id="main-article-preview-small">The ex-wife of Amazon founder Jeff Bezos pledges to give half of her $37bn fortune to charity.</span>
+    		<img id="clock-icon-small" src="images/clock.png" alt="">
+    		<div id="post-time-small">14h</div>
+    		<div id="category-small">Technology</div>
+    	</div>
+    	<div id="main-article-small">
+    		<img id="main-article-image-small" src="images/main-article-image-small-05.png" alt="">
+    		<h1 id="main-article-title-small">Cyber-spies tight-lipped on Baltimore hack</h1>
+    		<span id="main-article-preview-small">Politicians seek briefing from the US cyber-agency over claims it has links to a ransomeware breach.</span>
+    		<img id="clock-icon-small" src="images/clock.png" alt="">
+    		<div id="post-time-small">14h</div>
+    		<div id="category-small">Technology</div>
+    	</div>
+    	<div id="main-article-small">
+    		<img id="main-article-image-small" src="images/main-article-image-small-06.png" alt="">
+    		<h1 id="main-article-title-small">The hackers taking bugs to the bank</h1>
+    		<span id="main-article-preview-small">Looking for bugs in computer code can be lucrative but there's more to security than just cashing in.</span>
+    		<img id="clock-icon-small" src="images/clock.png" alt="">
+    		<div id="post-time-small">14h</div>
+    		<div id="category-small">Technology</div>
+    	</div>
+    	<div class="clear"></div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/sub-images-01.png" alt="">
+    		<h1 id="sub-title">The shady world of Russian data theft</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">14h</div>
+    		<div id="sub-category">Technology</div>
+    	</div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/sub-images-02.png" alt="">
+    		<h1 id="sub-title">Pelosi clip shows misinformation is welcome on Facebook</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">14h</div>
+    		<div id="sub-category">Technology</div>
+    	</div><div id="sub-article">
+    		<img id="sub-images" src="images/sub-images-03.png" alt="">
+    		<h1 id="sub-title">Mona Lisa 'brought to life' by AI</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">14h</div>
+    		<div id="sub-category">Technology</div>
+    	</div><div id="sub-article">
+    		<img id="sub-images" src="images/sub-images-04.png" alt="">
+    		<h1 id="sub-title">Scam victims to be refunded by banks</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">14h</div>
+    		<div id="sub-category">Technology</div>
+    	</div><div id="sub-article">
+    		<img id="sub-images" src="images/sub-images-05.png" alt="">
+    		<h1 id="sub-title">Facebook culls three billion fake profiles</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">14h</div>
+    		<div id="sub-category">Technology</div>
+    	</div>
+    	<div class="clear"></div>
+    	<div id="section-bar-wl">
+    		<h1 id="section-title-wl">Watch/Listen</h1>
+    		<hr>
+    	</div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/watch-and-listen-images-01.png" alt="">
+    		<h1 id="sub-title">The diggers guided by satellites and drones</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">7h</div>
+    		<div id="sub-category">Business</div>
+    	</div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/watch-and-listen-images-02.png" alt="">
+    		<h1 id="sub-title">Strava boss: How to build a runaway success</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">2d</div>
+    		<div id="sub-category">Business</div>
+    	</div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/watch-and-listen-images-03.png" alt="">
+    		<h1 id="sub-title">Texting while crossing road may be banned</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">4d</div>
+    		<div id="sub-category">Technology</div>
+    	</div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/watch-and-listen-images-04.png" alt="">
+    		<h1 id="sub-title">If a house was design by machine, how would it look?</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">21 May 2019</div>
+    		<div id="sub-category">Business</div>
+    	</div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/watch-and-listen-images-05.png" alt="">
+    		<h1 id="sub-title">Driverless model cars 'talk' to avoid jams</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">21 May 2019</div>
+    		<div id="sub-category">Cambridgeshire</div>
+    	</div>
+    	<div class="clear"></div>
+    	<div id="section-bar-fa">
+    		<h1 id="section-title-fa">Features & Analysis</h1>
+    		<hr>
+    	</div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/features-and-analysis-images-01.png" alt="">
+    		<h1 id="sub-title">How Ireland became Europe's data watchdog</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">1d</div>
+    		<div id="sub-category">Business</div>
+    	</div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/features-and-analysis-images-02.png" alt="">
+    		<h1 id="sub-title">Is Huawei in retreat?</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">4d</div>
+    		<div id="sub-category">Technology</div>
+    	</div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/features-and-analysis-images-03.png" alt="">
+    		<h1 id="sub-title">Why Huawei's Google woes worry Africa</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">3d</div>
+    		<div id="sub-category">Africa</div>
+    	</div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/features-and-analysis-images-04.png" alt="">
+    		<h1 id="sub-title">Google's personalised ad tech is probed</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">6d</div>
+    		<div id="sub-category">Technology</div>
+    	</div>
+    	<div id="sub-article">
+    		<img id="sub-images" src="images/features-and-analysis-images-05.png" alt="">
+    		<h1 id="sub-title">'Alexa, are you perpetuating bias?'</h1>
+    		<img id="sub-clock-icon" src="images/clock.png" alt="">
+    		<div id="sub-post-time">21 May 2019</div>
+    		<div id="sub-category">Technology</div>
+    	</div>
+    	<div class="clear"></div>
+    	<hr id="latest-updates-bar">
+    	<div class="clear"></div>
+    	<div id="latest-updates">
+    		<h1 id="latest-updates-head">Latest Updates</h1>
+    		<div class="clear"></div>
+    		<div id="latest-updates-news">
+    		<span id="latest-updates-time">13:56</span>
+    		<div id="latest-updates-title">Huawei steps up its PR offensive</div>
+    		<div id="source-icon">
+    			<img id="source-icon" src="images/head-01.png" alt="">
+    		</div>
+    		<div id="source-text">Robin Brant</div>
+    		<div id="source-info">Political Correspondent</div>
+    		<img id="latest-images-large" src="images/latest-images-01.png" alt="">
+    		<p id="latest-updates-content">Sitting up on a stage, in a large theatre-like room at its sprawling Shenzhen HQ there was much talk from the Huawei executives of America’s rural and "poorer" customers who deserve "equitable access" to good broadband provision. <br>
+			<br>
+			Huawei’s chief legal officer went as far as saying "connectivity is a basic human right". Three billion customers across the world are facing the threat of having their welfare "damaged" apparently. <br>
+
+			So the firm wants to speed things up. The other reason of course is that the assault from the Trump administration is biting. <br>
+			<br>
+			Asked if the restrictions could be devastating to the company one executive said he wouldn’t use that word. Asked if the company would still be around in a year’s time he said its business plans go well beyond next year. <br>
+			<br>
+			This is a company that insists it is - proudly - privately owned. Its HQ is not a place dotted with political paraphernalia. Nonetheless I asked if the two senior executives present were members of China’s prevailing Communist Party. One said he wasn’t. The other wouldn’t say.</p>
+    		</div>
+    		<hr id="latest-line">
+    		<div class="clear"></div>
+
+    		
+    		<div id="latest-updates-news">
+    		<span id="latest-updates-time">13:38</span>
+    		<div id="latest-updates-title">'Lots of US accusations but little evidence'</div>
+    		<div id="source-icon">
+    			<img id="source-icon" src="images/bbc-radio4.png" alt="">
+    		</div>
+    		<div id="source-text">Today Programme</div>
+    		<div id="source-info">BBC Radio 4</div>
+    		<img id="latest-images-large"src="images/latest-images-02.jpg" alt="">
+    		<p id="latest-updates-content">
+    			More on <a id="hyperlinks"href="https://www.bbc.com/news/business-48441814">that Huawei story.</a>
+				<br>
+				<br>
+				Emily Taylor, editor of the Journal of Cyber Policy, tells Radio 4's Today programme: "Huawei claims that national security is being used as a cloak in the trade war between the US and China.
+				<br>
+				<br>
+				"The whole context of this is the tension between the US and China."
+				<br>
+				<br>
+				She says there are also issues around the roll-out of 5G, the next generation of mobile phone networks.
+				<br>
+				<br>
+				"There are a lot of strands to it," says Ms Taylor. "In the US rhetoric there are a lot of accusations, but very little evidence."
+    		</p>    		
+    		<hr id="latest-line">
+    		<div class="clear"></div>
+    		</div>
+    		<div id="latest-updates-news">
+    		<span id="latest-updates-time">13:05</span>
+    		<div id="latest-updates-title">Huawei: US blacklisting could hurt billions</div>
+    		<img id="latest-images-large"src="images/latest-images-03.png" alt="">
+    		<p id="latest-updates-content">
+    			Huawei's top legal officer has said a US move to put the company on a trade blacklist could hurt more than 3 billion consumers around the world.
+    			<br>
+    			<br>
+				"Two weeks ago, the US Commerce Department added Huawei to their 'Entity List.' This decision threatens to harm our customers in over 170 countries, including more than three billion consumers who use Huawei products and services around the world," said Song Liuping, Huawei’s chief legal officer at a press conference.
+				<br>
+				<br>
+				He said US firms and the US economy would also be hit.
+				<br>
+				<br>
+				"By preventing American companies from doing business with Huawei, the government will directly harm more than 1,200 US companies. This will affect tens of thousands of American jobs."
+    		</p>    		
+    		<hr id="latest-line">
+    		<div class="clear"></div>
+    		</div>
+    		<div id="latest-updates-news">
+    		<span id="latest-updates-time">7:01</span>
+    		<div id="latest-updates-title">The diggers guided by satellites and drones</div>
+    		<img id="latest-images-large"src="images/latest-images-04.png" alt="">
+    		<p id="latest-updates-content">
+    			Moving earth is messy - but new technology means we can dig with an accuracy of a few centimetres.
+    		</p>    		
+    		<hr id="latest-line">
+    		<div class="clear"></div>
+    		</div>
+    		<div id="latest-updates-news">
+    		<span id="latest-updates-time">4:51</span>
+    		<div id="latest-updates-title">Divorcee's touching Craigslist ad about moving on</div>
+    		<img id="latest-images-small"src="images/latest-images-small-01.png" alt="">    		
+    		<div id="latest-small-text">Rozina Sini</div>
+    		<div id="latest-small-info">BBC News</div>
+    		<p id="latest-small-content">
+    			A writer posts a heartfelt Craigslist ad of items for sale from her New York flat after a break-up.
+    		</p> 
+    		<button id="read-more">Read more ></button>		
+    		<hr id="latest-line">
+    		<div class="clear"></div>
+    		</div>
+    		<div id="latest-updates-news">
+    		<span id="latest-updates-time">0:16</span>
+    		<div id="latest-updates-title">Footballer prank causes mobile meltdown</div>
+    		<img id="latest-images-small"src="images/latest-images-small-02.png" alt="">
+    		<p id="latest-small-content">
+    			Scott Forsyth received 50,000 WhatsApp messages when Jamie Carragher accidentally posted his phone number.
+    		</p> 
+    		<button id="read-more">Read more ></button>		
+    		<hr id="latest-line">
+    		<div class="clear"></div>
+    		</div>
+    		<div id="latest-updates-news">
+    		<span id="latest-updates-time">0:09</span>
+    		<div id="latest-updates-title">Inside the Warwick rape chat scandal</div>
+    		<img id="latest-images-small"src="images/latest-images-small-03.png" alt="">    		
+    		<div id="latest-small-text">Dulcie Lee & Larissa Kennelly</div>
+    		<div id="latest-small-info">BBC News</div>
+    		<p id="latest-small-content">
+    			A writer posts a heartfelt Craigslist ad of items for sale from her New York flat after a break-up.
+    		</p> 
+    		<button id="read-more">Read more ></button>		
+    		<hr id="latest-line">
+    		<div class="clear"></div>
+    		</div>
+    		<div id="latest-updates-news">
+    		<span id="latest-updates-time">22:42 28 May</span>
+    		<div id="latest-updates-title">The push for artificial intelligence in Africa</div>
+    		<img id="latest-images-small"src="images/latest-images-small-04.png" alt="">    		
+    		<div id="latest-small-text">Mary-Ann Russon</div>
+    		<div id="latest-small-info">Business reporter, BBC News</div>
+    		<p id="latest-small-content">
+    			Efforts are being made to train more African computer scientists to help the region stay competitive.
+    		</p> 
+    		<button id="read-more">Read more ></button>		
+    		<hr id="latest-line">
+    		<div class="clear"></div>
+    		</div>
+
+    		<div class="clear"></div>
+    		<button id="show-more">Show more</button>    		
+    		</div>
+    		<div class="clear"></div>
+    	<div id="section-bar-bbc">
+    		<h1 id="section-title-bbc">About the BBC</h1>
+    		<hr>
+    	</div>
+    	<div id="about-the-bbc">
+    		<div id="about-the-bbc-large">
+    			<img id="about-images-large"src="images/about-the-bbc-images-01.png" alt="">
+    			<h1 id="about-the-bbc-title">'I was a Macedonian fake news writer'</h1>
+    			<span id="about-the-bbc-source">BBC Future</span>
+    		</div>
+    		<div id="about-the-bbc-small">
+    			<img id="about-images-small"src="images/about-the-bbc-images-02.png" alt="">
+    			<h1 id="about-the-bbc-title-small">The curious origin of dollar sign</h1>
+    			<span id="about-the-bbc-source-small">BBC Capital</span>
+    		</div>
+    		<div id="about-the-bbc-small">
+    			<img id="about-images-small"src="images/about-the-bbc-images-03.png" alt="">
+    			<h1 id="about-the-bbc-title-small">A castel where people live rent-free</h1>
+    			<span id="about-the-bbc-source-small">BBC Travel</span>
+    		</div>
+    		<div id="about-the-bbc-small">
+    			<img id="about-images-small"src="images/about-the-bbc-images-04.png" alt="">
+    			<h1 id="about-the-bbc-title-small">Why do we demonised the scarred?</h1>
+    			<span id="about-the-bbc-source-small">BBC Culture</span>
+    		</div>
+    		<div id="about-the-bbc-small">
+    			<img id="about-images-small"src="images/about-the-bbc-images-05.png" alt="">
+    			<h1 id="about-the-bbc-title-small">The puzzle of ancient brain surgery</h1>
+    			<span id="about-the-bbc-source-small">BBC Earth</span>
+    		</div>
+    		<div id="about-the-bbc-small">
+    			<img id="about-images-small"src="images/about-the-bbc-images-06.png" alt="">
+    			<h1 id="about-the-bbc-title-small">The flaw at the heart of democracy</h1>
+    			<span id="about-the-bbc-source-small">BBC Future</span>
+    		</div>
+    		<div id="about-the-bbc-small">
+    			<img id="about-images-small"src="images/about-the-bbc-images-07.png" alt="">
+    			<h1 id="about-the-bbc-title-small">Living next door to an ageing reactor</h1>
+    			<span id="about-the-bbc-source-small">BBC Capital</span>
+    		</div>    		
+    	</div>
+    	</div>
+    	<div class="clear"></div>
+    	<div id="section-bar-find-us">
+    		<h1 id="section-title-find-us">Find us here</h1>
+    		<hr>
+    	</div>
+    	<div id="find-us-here">
+    		<div id="social-media-icon">
+    			<img id="icon-twitter"></img>
+    			<img id="icon-facebook" src="images/facebook-white.png" alt="">
+    			<img id="icon-instagram" src="images/instagram-white.png" alt="">    			
+    		</div>
+    		<div id="somecontainer">
+    		<div id="news-daily">
+    			<img id="news-daily-icon" src="images/find-us-here-icon-01.png" alt="">
+    			<span id="news-daily-title">NEWS <span>DAILY</span></span>
+    			<span id="news-daily-content">Get news from the BBC in your inbox each weekday morning</span>
+    		</div>
+    		<div id="news-app">
+    			<img id="news-app-icon" src="images/find-us-here-icon-02.png" alt="">
+    			<span id="news-app-title">NEWS <span>APP</span></span>
+    			<span id="news-app-content">Find out more about our BBC News App</span>
+    		</div>
+    		<div id="contact">
+    			<p id="email">Email us at <a id="hyperlinks">haveyoursay@bbc.co.uk</a></p>
+    			<p id="sms">Send an SMS or MMS to<a id="hyperlinks"> +44 7624 800100</a></p>
+    			<p id="follow-twitter">Follow <a id="hyperlinks">Have Your Say on Twitter</a></p>
+    			<p id="trustBBC"><a id="hyperlinks">Why you can trust BBC News</a></p>
+    		</div>
+    		</div>
+    	</div>
+    	<div class="clear"></div>
+    	<div class="clear"></div>
+    	<div class="clear"></div>
+
+    	<div id="upper-footer">
+    		<div id="news-services">BBC New Services</div>
+    		<img id="news-services-mobile" src="images/news-services-images-01.png" alt=""><span id="on-mobile" class="news-services">On your mobile</span>
+    		<img id="news-services-tv" src="images/news-services-images-02.png" alt=""><span id="on-tv" class="news-services">On your connected tv</span>
+    		<img id="news-services-alerts" src="images/news-services-images-03.png" alt=""><span id="news-alerts" class="news-services">Get news alerts</span>
+    		<img id="news-services-contact" src="images/news-services-images-04.png" alt=""><span id="contact-bbc" class="news-services">Contact BBC News</span>
+    		
+    	</div>
+    	<div id="lower-footer">
+    		<div id="explore-the-bbc">Explore the BBC</div>
+    		<div id="footer-links-00">
+    			<p><a>Home</a></p>
+    			<p><a>Travel</a></p>
+    			<p><a>CBeebies</a></p>
+    			<p><a>Local</a></p>    			
+    		</div>
+    		<div id="footer-links-01">
+    			<p><a>News</a></p>
+    			<p><a>Capital</a></p>
+    			<p><a>Food</a></p>
+    			<p><a>TV</a></p>    			
+    		</div>
+    		<div id="footer-links-01">
+    			<p><a>Sport</a></p>
+    			<p><a>Culture</a></p>
+    			<p><a>Bitesize</a></p>
+    			<p><a>Radio</a></p>			
+    		</div>
+    		<div id="footer-links-01">
+    			<p><a>Weather</a></p>
+    			<p><a>Future</a></p>
+    			<p><a>Arts</a></p>
+    			<p><a>Three</a></p>   			
+    		</div>
+    		<div id="footer-links-01">
+    			<p><a>Shop</a></p>
+    			<p><a>Sounds</a></p>
+    			<p><a>Taster</a></p>			
+    		</div>
+    		<div id="footer-links-02">
+    			<p><a>Reel</a></p>
+    			<p><a>CBBC</a></p>
+    			<p><a>Nature</a></p>   			
+    		</div>
+    		<div id="footer-breaker"></div>
+    		<div id="terms-of-use">
+    			<span>Terms of Use</span>
+			    <span>About the BBC</span>
+			    <span>Privacy Policy</span>
+			    <span>Cookies</span>
+			    <span>Accessibility Help</span>
+			    <span>Parental Guidance</span>
+			    <span>Contact the BBC</span>
+			    <span>Get Personalised Newsletters</span>
+			    <span>Advertise with us</span>
+			    <span>Ad choices</span>
+    		</div>
+    		<div id="copyright-section">
+    			<span id="copyright">Copyright © 2019 BBC.</span>
+    			<span>The BBC is not responsible for the content of external sites.</span>
+    			<span id="read-about"> Read about our approach to external linking.</span>
+    		</div>
+    		
+    	</div>
+
+    </body>
+</html>
